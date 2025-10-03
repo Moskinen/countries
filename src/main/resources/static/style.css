@@ -1,0 +1,77 @@
+/* General page styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 5vh;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    animation: fadeIn 2s ease-in;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Facts section */
+.facts h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts li {
+    background: #ecf0f1;
+    margin: 0.8rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.facts li:hover {
+    transform: scale(1.05);
+    background: #d6eaf8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
