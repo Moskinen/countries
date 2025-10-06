@@ -7,13 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Pages {
+public class PagesController {
 
     @GetMapping("/")
     public String home(){
         return ("home/index");
     }
 }
-//@GetMapping("/")
-//public ModelAndView home(){
-//return new ModelAndView ("home/index")
